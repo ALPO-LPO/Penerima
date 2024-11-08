@@ -1,0 +1,49 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package pertemuan.pkg3;
+
+/**
+ *
+ * @author LENOVO
+ */
+class Penerima {
+    private String namaPenerima;
+    private String alamat;
+    private String kategori;
+
+    // Konstruktor berparameter
+    public Penerima(String namaPenerima, String alamat, String kategori) {
+        this.namaPenerima = namaPenerima;
+        this.alamat = alamat;
+        this.kategori = kategori;
+    }
+
+    // Getter dan Setter untuk nama penerima
+    public String getNamaPenerima() {
+        return namaPenerima;
+    }
+
+    public void setNamaPenerima(String namaPenerima) {
+        this.namaPenerima = namaPenerima;
+    }
+
+    // Getter dan Setter untuk alamat
+    public String getAlamat() {
+        return alamat;
+    }
+
+    public void setAlamat(String alamat) {
+        this.alamat = alamat;
+    }
+
+    // Getter dan Setter untuk kategori
+    public String getKategori() {
+        return kategori;
+    }
+
+    public void setKategori(String kategori) {
+        this.kategori = kategori;
+    }
+}
